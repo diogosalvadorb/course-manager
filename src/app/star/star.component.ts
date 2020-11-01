@@ -2,7 +2,7 @@ import { Component, Input, OnChanges } from '@angular/core'
 
 @Component({
     selector: 'app-star',
-    template: './star.component.html',
+    templateUrl: './star.component.html',
     styleUrls: ['./star.component.css']
 })
 
