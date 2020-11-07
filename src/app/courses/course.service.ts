@@ -28,7 +28,9 @@ export class CourseService {
         }
     }
 
-    deleteById(id)
+    deleteById(id: number): Observable<any> {
+        return this.httpCliente.delete<any>(`${this.coursesUrl}/${id}`)
+    }
 
 }
 
