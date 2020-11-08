@@ -13,7 +13,7 @@ O projeto consiste em um sistema de cursos, com possibilidade de edita, deletar 
 Execute `ng serve` para que o projeto suba localmente. Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código
 
 ## Back-end
-Abra o terminal na pasta backend e execute `node serve.js`,  após a inicialização sera possível realizar requisições http.
+Abra o terminal de comando na pasta backend e execute `node serve.js`,  após a inicialização sera possível realizar requisições http.
 
 ## Gerando componente
 
